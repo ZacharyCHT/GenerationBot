@@ -7,7 +7,8 @@ import config as c
 sr = SpecialRandoms
 prefix = "!"
 bot = commands.Bot(command_prefix=prefix)
-joinLink = "https://discordapp.com/oauth2/authorize?client_id="+c.ClienId+"&permissions="+c.PermissionsInt+"&scope=bot"
+PermissionsInt = str(8)
+joinLink = "https://discordapp.com/oauth2/authorize?client_id="+c.ClienId+"&permissions="+PermissionsInt+"&scope=bot"
 
 
 @bot.event
